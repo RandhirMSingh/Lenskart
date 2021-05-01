@@ -15,7 +15,7 @@
 		D711D2C6263CFC8C0041E5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D711D2C4263CFC8C0041E5D4 /* LaunchScreen.storyboard */; };
 		D711D2D1263CFC8C0041E5D4 /* LenskartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711D2D0263CFC8C0041E5D4 /* LenskartTests.swift */; };
 		D711D2DC263CFC8C0041E5D4 /* LenskartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711D2DB263CFC8C0041E5D4 /* LenskartUITests.swift */; };
-		D711D2ED263CFCBE0041E5D4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711D2EC263CFCBE0041E5D4 /* User.swift */; };
+		D711D2ED263CFCBE0041E5D4 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711D2EC263CFCBE0041E5D4 /* Movie.swift */; };
 		D711D2F2263CFD390041E5D4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711D2F1263CFD390041E5D4 /* NetworkService.swift */; };
 		D711D2F7263D038F0041E5D4 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711D2F6263D038F0041E5D4 /* TableViewModel.swift */; };
 		D711D2FC263D06250041E5D4 /* TableViewModelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711D2FB263D06250041E5D4 /* TableViewModelBuilder.swift */; };
@@ -56,7 +56,7 @@
 		D711D2D7263CFC8C0041E5D4 /* LenskartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LenskartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D711D2DB263CFC8C0041E5D4 /* LenskartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenskartUITests.swift; sourceTree = "<group>"; };
 		D711D2DD263CFC8C0041E5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D711D2EC263CFCBE0041E5D4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D711D2EC263CFCBE0041E5D4 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		D711D2F1263CFD390041E5D4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		D711D2F6263D038F0041E5D4 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
 		D711D2FB263D06250041E5D4 /* TableViewModelBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModelBuilder.swift; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 				D711D2C4263CFC8C0041E5D4 /* LaunchScreen.storyboard */,
 				D711D2C7263CFC8C0041E5D4 /* Info.plist */,
 				D711D31B263D244C0041E5D4 /* MovieListTableViewCell.swift */,
-				D711D2EC263CFCBE0041E5D4 /* User.swift */,
+				D711D2EC263CFCBE0041E5D4 /* Movie.swift */,
 				D711D2F1263CFD390041E5D4 /* NetworkService.swift */,
 				D711D2F6263D038F0041E5D4 /* TableViewModel.swift */,
 				D711D2FB263D06250041E5D4 /* TableViewModelBuilder.swift */,
@@ -297,7 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D711D2F2263CFD390041E5D4 /* NetworkService.swift in Sources */,
-				D711D2ED263CFCBE0041E5D4 /* User.swift in Sources */,
+				D711D2ED263CFCBE0041E5D4 /* Movie.swift in Sources */,
 				D711D2BE263CFC890041E5D4 /* ViewController.swift in Sources */,
 				D711D30D263D13A00041E5D4 /* Bundle+Extension.swift in Sources */,
 				D711D2F7263D038F0041E5D4 /* TableViewModel.swift in Sources */,
