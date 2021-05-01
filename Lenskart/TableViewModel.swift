@@ -13,7 +13,7 @@ protocol TableViewModel {
 }
 
 protocol TableViewSectionModel {
-    var cells: [TableViewCellModel] {get}
+    var cellViewModels: [TableViewCellModel] {get}
     
 }
 
@@ -27,7 +27,7 @@ struct MoviewListTableView: TableViewModel {
 }
 
 struct MovieListTableViewSection: TableViewSectionModel  {
-    var cells: [TableViewCellModel]
+    var cellViewModels: [TableViewCellModel]
 }
 
 struct MoviewListTableViewCell: TableViewCellModel {

@@ -8,9 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var tableView: UITableView!
+    @IBOutlet weak var tableView: UITableView!
     var tableViewModel: TableViewModel!
-   // let tableViewModelBuilder: TableViewModelBuilder = TableViewModelBuilder()
+    lazy var tableViewModelBuilder: TableViewModelBuilder = MoviewListTableViewBuilder()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,22 +23,24 @@ class ViewController: UIViewController {
 
 extension ViewController {
     func setupTableView() {
-        //create table view
-        tableView = UITableView(frame: self.view.frame, style: .insetGrouped)
         tableView.dataSource = self
         tableView.delegate = self
-        //create
     }
     
     func buildTableViewModel() {
-        
+        tableViewModelBuilder.buildTableViewModel { (tableVM) in
+            tableViewModel = tableVM
+        }
     }
 }
 
 //MARK: - TableView Datasource and Delegate Methods
 extension ViewController: UITableViewDataSource, UITableViewDelegate {
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return tableViewModel.sections.count
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return tableViewModel.sections[section].cellViewModels.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

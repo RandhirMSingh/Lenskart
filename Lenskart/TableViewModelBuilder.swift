@@ -25,7 +25,7 @@ struct MoviewListTableViewBuilder: TableViewModelBuilder {
                 let cellVM = movies.map { (movie) -> MoviewListTableViewCell in
                     MoviewListTableViewCell(movie: movie)
                 }
-                sectionVMs = [MovieListTableViewSection(cells: cellVM)]
+                sectionVMs = [MovieListTableViewSection(cellViewModels: cellVM)]
             case .failure(let error):
                 //Hanlde failure
                 print(error.localizedDescription)
