@@ -44,7 +44,12 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        let cellVM = tableViewModel.sections[indexPath.section].cellViewModels[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellVM.reusableIndetifier, for: indexPath)
+        
+        cellVM.configure(cell: cell)
+        
+        return cell
     }
     
     

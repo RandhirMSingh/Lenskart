@@ -19,6 +19,52 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WOV-Ur-gp0">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieListCell" rowHeight="149" id="Fsp-7x-Bwz" customClass="MovieListTableViewCell" customModule="Lenskart" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="149"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Fsp-7x-Bwz" id="jQR-kp-BRc">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="149"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A60-b7-iaO">
+                                                    <rect key="frame" x="10" y="10" width="94" height="129"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="A60-b7-iaO" secondAttribute="height" multiplier="94:129" id="Ufk-73-iZn"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GrF-gS-fZP">
+                                                    <rect key="frame" x="114" y="20" width="290" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L1K-3M-jc1">
+                                                    <rect key="frame" x="114" y="60" width="290" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="L1K-3M-jc1" firstAttribute="trailing" secondItem="GrF-gS-fZP" secondAttribute="trailing" id="DWU-xP-hfd"/>
+                                                <constraint firstItem="A60-b7-iaO" firstAttribute="leading" secondItem="jQR-kp-BRc" secondAttribute="leading" constant="10" id="HCz-EY-c8f"/>
+                                                <constraint firstItem="L1K-3M-jc1" firstAttribute="leading" secondItem="GrF-gS-fZP" secondAttribute="leading" id="PTs-9t-Phn"/>
+                                                <constraint firstAttribute="bottom" secondItem="A60-b7-iaO" secondAttribute="bottom" constant="10" id="QYB-4M-b2K"/>
+                                                <constraint firstItem="A60-b7-iaO" firstAttribute="top" secondItem="jQR-kp-BRc" secondAttribute="top" constant="10" id="UB0-C0-eP0"/>
+                                                <constraint firstAttribute="trailing" secondItem="GrF-gS-fZP" secondAttribute="trailing" constant="10" id="Vsz-F0-Pom"/>
+                                                <constraint firstItem="GrF-gS-fZP" firstAttribute="top" secondItem="jQR-kp-BRc" secondAttribute="top" constant="20" id="dqG-HU-RVB"/>
+                                                <constraint firstItem="GrF-gS-fZP" firstAttribute="leading" secondItem="A60-b7-iaO" secondAttribute="trailing" constant="10" id="sXC-9d-FnR"/>
+                                                <constraint firstItem="L1K-3M-jc1" firstAttribute="top" secondItem="GrF-gS-fZP" secondAttribute="top" constant="40" id="thw-55-zUA"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="movieImageView" destination="A60-b7-iaO" id="x6z-YB-SE6"/>
+                                            <outlet property="ratingLabel" destination="L1K-3M-jc1" id="aIV-qt-1CC"/>
+                                            <outlet property="titleLabel" destination="GrF-gS-fZP" id="ye0-2M-SV2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -36,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="75"/>
+            <point key="canvasLocation" x="137.68115942028987" y="75"/>
         </scene>
     </scenes>
     <resources>

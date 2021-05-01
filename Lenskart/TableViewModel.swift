@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 
 protocol TableViewModel {
@@ -18,7 +19,8 @@ protocol TableViewSectionModel {
 }
 
 protocol TableViewCellModel {
-    func configure()
+    var reusableIndetifier: String {get}
+    func configure(cell: UITableViewCell)
     func execute()
 }
 
@@ -30,10 +32,12 @@ struct MovieListTableViewSection: TableViewSectionModel  {
     var cellViewModels: [TableViewCellModel]
 }
 
-struct MoviewListTableViewCell: TableViewCellModel {
+struct MoviewTableViewCellViewModel: TableViewCellModel {
+    var reusableIndetifier = "MovieListCell"
+
     var movie: Movie
     
-    func configure() {
+    func configure(cell: UITableViewCell) {
 
     }
     

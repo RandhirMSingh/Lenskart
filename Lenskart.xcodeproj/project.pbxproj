@@ -21,6 +21,7 @@
 		D711D2FC263D06250041E5D4 /* TableViewModelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711D2FB263D06250041E5D4 /* TableViewModelBuilder.swift */; };
 		D711D301263D131A0041E5D4 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = D711D300263D13190041E5D4 /* movies.json */; };
 		D711D30D263D13A00041E5D4 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711D30C263D13A00041E5D4 /* Bundle+Extension.swift */; };
+		D711D31C263D244C0041E5D4 /* MovieListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711D31B263D244C0041E5D4 /* MovieListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		D711D2FB263D06250041E5D4 /* TableViewModelBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModelBuilder.swift; sourceTree = "<group>"; };
 		D711D300263D13190041E5D4 /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
 		D711D30C263D13A00041E5D4 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		D711D31B263D244C0041E5D4 /* MovieListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				D711D2C2263CFC8C0041E5D4 /* Assets.xcassets */,
 				D711D2C4263CFC8C0041E5D4 /* LaunchScreen.storyboard */,
 				D711D2C7263CFC8C0041E5D4 /* Info.plist */,
+				D711D31B263D244C0041E5D4 /* MovieListTableViewCell.swift */,
 				D711D2EC263CFCBE0041E5D4 /* User.swift */,
 				D711D2F1263CFD390041E5D4 /* NetworkService.swift */,
 				D711D2F6263D038F0041E5D4 /* TableViewModel.swift */,
@@ -300,6 +303,7 @@
 				D711D2F7263D038F0041E5D4 /* TableViewModel.swift in Sources */,
 				D711D2FC263D06250041E5D4 /* TableViewModelBuilder.swift in Sources */,
 				D711D2BA263CFC890041E5D4 /* AppDelegate.swift in Sources */,
+				D711D31C263D244C0041E5D4 /* MovieListTableViewCell.swift in Sources */,
 				D711D2BC263CFC890041E5D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

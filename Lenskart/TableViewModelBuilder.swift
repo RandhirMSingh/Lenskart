@@ -22,8 +22,8 @@ struct MoviewListTableViewBuilder: TableViewModelBuilder {
         networkingService.get { (result) in
             switch result {
             case .success(let movies):
-                let cellVM = movies.map { (movie) -> MoviewListTableViewCell in
-                    MoviewListTableViewCell(movie: movie)
+                let cellVM = movies.map { (movie) -> MoviewTableViewCellViewModel in
+                    MoviewTableViewCellViewModel(movie: movie)
                 }
                 sectionVMs = [MovieListTableViewSection(cellViewModels: cellVM)]
             case .failure(let error):
