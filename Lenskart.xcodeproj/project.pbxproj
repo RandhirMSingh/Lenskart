@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D711D2BA263CFC890041E5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711D2B9263CFC890041E5D4 /* AppDelegate.swift */; };
+		D711D2BC263CFC890041E5D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711D2BB263CFC890041E5D4 /* SceneDelegate.swift */; };
+		D711D2BE263CFC890041E5D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711D2BD263CFC890041E5D4 /* ViewController.swift */; };
+		D711D2C1263CFC890041E5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D711D2BF263CFC890041E5D4 /* Main.storyboard */; };
+		D711D2C3263CFC8C0041E5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D711D2C2263CFC8C0041E5D4 /* Assets.xcassets */; };
+		D711D2C6263CFC8C0041E5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D711D2C4263CFC8C0041E5D4 /* LaunchScreen.storyboard */; };
+		D711D2D1263CFC8C0041E5D4 /* LenskartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711D2D0263CFC8C0041E5D4 /* LenskartTests.swift */; };
+		D711D2DC263CFC8C0041E5D4 /* LenskartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D711D2DB263CFC8C0041E5D4 /* LenskartUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D711D2CD263CFC8C0041E5D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D711D2AE263CFC890041E5D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D711D2B5263CFC890041E5D4;
+			remoteInfo = Lenskart;
+		};
+		D711D2D8263CFC8C0041E5D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D711D2AE263CFC890041E5D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D711D2B5263CFC890041E5D4;
+			remoteInfo = Lenskart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D711D2B6263CFC890041E5D4 /* Lenskart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lenskart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D711D2B9263CFC890041E5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D711D2BB263CFC890041E5D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D711D2BD263CFC890041E5D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D711D2C0263CFC890041E5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D711D2C2263CFC8C0041E5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D711D2C5263CFC8C0041E5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D711D2C7263CFC8C0041E5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D711D2CC263CFC8C0041E5D4 /* LenskartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LenskartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D711D2D0263CFC8C0041E5D4 /* LenskartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenskartTests.swift; sourceTree = "<group>"; };
+		D711D2D2263CFC8C0041E5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D711D2D7263CFC8C0041E5D4 /* LenskartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LenskartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D711D2DB263CFC8C0041E5D4 /* LenskartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenskartUITests.swift; sourceTree = "<group>"; };
+		D711D2DD263CFC8C0041E5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D711D2B3263CFC890041E5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D711D2C9263CFC8C0041E5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D711D2D4263CFC8C0041E5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D711D2AD263CFC890041E5D4 = {
+			isa = PBXGroup;
+			children = (
+				D711D2B8263CFC890041E5D4 /* Lenskart */,
+				D711D2CF263CFC8C0041E5D4 /* LenskartTests */,
+				D711D2DA263CFC8C0041E5D4 /* LenskartUITests */,
+				D711D2B7263CFC890041E5D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D711D2B7263CFC890041E5D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D711D2B6263CFC890041E5D4 /* Lenskart.app */,
+				D711D2CC263CFC8C0041E5D4 /* LenskartTests.xctest */,
+				D711D2D7263CFC8C0041E5D4 /* LenskartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D711D2B8263CFC890041E5D4 /* Lenskart */ = {
+			isa = PBXGroup;
+			children = (
+				D711D2B9263CFC890041E5D4 /* AppDelegate.swift */,
+				D711D2BB263CFC890041E5D4 /* SceneDelegate.swift */,
+				D711D2BD263CFC890041E5D4 /* ViewController.swift */,
+				D711D2BF263CFC890041E5D4 /* Main.storyboard */,
+				D711D2C2263CFC8C0041E5D4 /* Assets.xcassets */,
+				D711D2C4263CFC8C0041E5D4 /* LaunchScreen.storyboard */,
+				D711D2C7263CFC8C0041E5D4 /* Info.plist */,
+			);
+			path = Lenskart;
+			sourceTree = "<group>";
+		};
+		D711D2CF263CFC8C0041E5D4 /* LenskartTests */ = {
+			isa = PBXGroup;
+			children = (
+				D711D2D0263CFC8C0041E5D4 /* LenskartTests.swift */,
+				D711D2D2263CFC8C0041E5D4 /* Info.plist */,
+			);
+			path = LenskartTests;
+			sourceTree = "<group>";
+		};
+		D711D2DA263CFC8C0041E5D4 /* LenskartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D711D2DB263CFC8C0041E5D4 /* LenskartUITests.swift */,
+				D711D2DD263CFC8C0041E5D4 /* Info.plist */,
+			);
+			path = LenskartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D711D2B5263CFC890041E5D4 /* Lenskart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D711D2E0263CFC8C0041E5D4 /* Build configuration list for PBXNativeTarget "Lenskart" */;
+			buildPhases = (
+				D711D2B2263CFC890041E5D4 /* Sources */,
+				D711D2B3263CFC890041E5D4 /* Frameworks */,
+				D711D2B4263CFC890041E5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lenskart;
+			productName = Lenskart;
+			productReference = D711D2B6263CFC890041E5D4 /* Lenskart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D711D2CB263CFC8C0041E5D4 /* LenskartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D711D2E3263CFC8C0041E5D4 /* Build configuration list for PBXNativeTarget "LenskartTests" */;
+			buildPhases = (
+				D711D2C8263CFC8C0041E5D4 /* Sources */,
+				D711D2C9263CFC8C0041E5D4 /* Frameworks */,
+				D711D2CA263CFC8C0041E5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D711D2CE263CFC8C0041E5D4 /* PBXTargetDependency */,
+			);
+			name = LenskartTests;
+			productName = LenskartTests;
+			productReference = D711D2CC263CFC8C0041E5D4 /* LenskartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D711D2D6263CFC8C0041E5D4 /* LenskartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D711D2E6263CFC8C0041E5D4 /* Build configuration list for PBXNativeTarget "LenskartUITests" */;
+			buildPhases = (
+				D711D2D3263CFC8C0041E5D4 /* Sources */,
+				D711D2D4263CFC8C0041E5D4 /* Frameworks */,
+				D711D2D5263CFC8C0041E5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D711D2D9263CFC8C0041E5D4 /* PBXTargetDependency */,
+			);
+			name = LenskartUITests;
+			productName = LenskartUITests;
+			productReference = D711D2D7263CFC8C0041E5D4 /* LenskartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D711D2AE263CFC890041E5D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					D711D2B5263CFC890041E5D4 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					D711D2CB263CFC8C0041E5D4 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = D711D2B5263CFC890041E5D4;
+					};
+					D711D2D6263CFC8C0041E5D4 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = D711D2B5263CFC890041E5D4;
+					};
+				};
+			};
+			buildConfigurationList = D711D2B1263CFC890041E5D4 /* Build configuration list for PBXProject "Lenskart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D711D2AD263CFC890041E5D4;
+			productRefGroup = D711D2B7263CFC890041E5D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D711D2B5263CFC890041E5D4 /* Lenskart */,
+				D711D2CB263CFC8C0041E5D4 /* LenskartTests */,
+				D711D2D6263CFC8C0041E5D4 /* LenskartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D711D2B4263CFC890041E5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D711D2C6263CFC8C0041E5D4 /* LaunchScreen.storyboard in Resources */,
+				D711D2C3263CFC8C0041E5D4 /* Assets.xcassets in Resources */,
+				D711D2C1263CFC890041E5D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D711D2CA263CFC8C0041E5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D711D2D5263CFC8C0041E5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D711D2B2263CFC890041E5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D711D2BE263CFC890041E5D4 /* ViewController.swift in Sources */,
+				D711D2BA263CFC890041E5D4 /* AppDelegate.swift in Sources */,
+				D711D2BC263CFC890041E5D4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D711D2C8263CFC8C0041E5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D711D2D1263CFC8C0041E5D4 /* LenskartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D711D2D3263CFC8C0041E5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D711D2DC263CFC8C0041E5D4 /* LenskartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D711D2CE263CFC8C0041E5D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D711D2B5263CFC890041E5D4 /* Lenskart */;
+			targetProxy = D711D2CD263CFC8C0041E5D4 /* PBXContainerItemProxy */;
+		};
+		D711D2D9263CFC8C0041E5D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D711D2B5263CFC890041E5D4 /* Lenskart */;
+			targetProxy = D711D2D8263CFC8C0041E5D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D711D2BF263CFC890041E5D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D711D2C0263CFC890041E5D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D711D2C4263CFC8C0041E5D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D711D2C5263CFC8C0041E5D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D711D2DE263CFC8C0041E5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D711D2DF263CFC8C0041E5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D711D2E1263CFC8C0041E5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AMXR9TLT9;
+				INFOPLIST_FILE = Lenskart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allstate.allstatemobile.dev.Lenskart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D711D2E2263CFC8C0041E5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AMXR9TLT9;
+				INFOPLIST_FILE = Lenskart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allstate.allstatemobile.dev.Lenskart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D711D2E4263CFC8C0041E5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AMXR9TLT9;
+				INFOPLIST_FILE = LenskartTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allstate.allstatemobile.dev.LenskartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lenskart.app/Lenskart";
+			};
+			name = Debug;
+		};
+		D711D2E5263CFC8C0041E5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AMXR9TLT9;
+				INFOPLIST_FILE = LenskartTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allstate.allstatemobile.dev.LenskartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lenskart.app/Lenskart";
+			};
+			name = Release;
+		};
+		D711D2E7263CFC8C0041E5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AMXR9TLT9;
+				INFOPLIST_FILE = LenskartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allstate.allstatemobile.dev.LenskartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lenskart;
+			};
+			name = Debug;
+		};
+		D711D2E8263CFC8C0041E5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AMXR9TLT9;
+				INFOPLIST_FILE = LenskartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allstate.allstatemobile.dev.LenskartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lenskart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D711D2B1263CFC890041E5D4 /* Build configuration list for PBXProject "Lenskart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D711D2DE263CFC8C0041E5D4 /* Debug */,
+				D711D2DF263CFC8C0041E5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D711D2E0263CFC8C0041E5D4 /* Build configuration list for PBXNativeTarget "Lenskart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D711D2E1263CFC8C0041E5D4 /* Debug */,
+				D711D2E2263CFC8C0041E5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D711D2E3263CFC8C0041E5D4 /* Build configuration list for PBXNativeTarget "LenskartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D711D2E4263CFC8C0041E5D4 /* Debug */,
+				D711D2E5263CFC8C0041E5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D711D2E6263CFC8C0041E5D4 /* Build configuration list for PBXNativeTarget "LenskartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D711D2E7263CFC8C0041E5D4 /* Debug */,
+				D711D2E8263CFC8C0041E5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D711D2AE263CFC890041E5D4 /* Project object */;
+}
