@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     var tableViewModel: TableViewModel!
+    
     lazy var tableViewModelBuilder: TableViewModelBuilder = MoviewListTableViewBuilder()
     
     override func viewDidLoad() {
@@ -19,6 +20,8 @@ class ViewController: UIViewController {
         buildTableViewModel()
     }
 }
+
+//
 
 
 extension ViewController {
@@ -48,7 +51,6 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellVM.reusableIndetifier, for: indexPath)
         
         cellVM.configure(cell: cell)
-        
         return cell
     }
     
